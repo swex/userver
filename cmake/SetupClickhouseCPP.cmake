@@ -26,8 +26,8 @@ include(SetupAbseil)
 
 cpmaddpackage(
     NAME clickhouse-cpp
-    VERSION 2.5.1
-    GIT_TAG f606f9a3b27d54403ebc6f7b055f4110864fb97c
+    VERSION 2.6.0
+    GIT_TAG 69195246a3b39542c397ef27df9f46ec4a4bf206
     GITHUB_REPOSITORY ClickHouse/clickhouse-cpp
     SYSTEM
     OPTIONS "WITH_SYSTEM_ABSEIL ON" "WITH_SYSTEM_LZ4 ON" "DEBUG_DEPENDENCIES OFF"
